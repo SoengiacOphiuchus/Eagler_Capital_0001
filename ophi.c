@@ -36,7 +36,7 @@ char ophi_scripture();
 
 /* Menu Functions */
 
-void launch(struct server *server)
+void (*launch())(struct server *server)
 {
 	char buffer[30000];
 	char *hello = "<html><body><h1>Welcome to Ophiuchus Solutions Community Software</h1></body></html>";
